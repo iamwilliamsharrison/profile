@@ -1,0 +1,93 @@
+HTML FILE    (PROFILE.HTML)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profilex.css">
+    <title>My Profile</title>
+</head>
+<body>
+     <div class="profile-card"> 
+        <div class="image-container">
+        <img src="images/me.jpg"style="width: 100%">
+        <div class="title">
+            <h2>Harrison .N Godson</h2>
+    </div>
+</div> <hr>
+<div class="main-container">
+    <h3>State of Origin</h3>
+   <p>Abia state</p><hr>
+   <h3>Home Town</h3>
+   <p>Bende LGA</p><hr>
+   <h3>Date of Birth</h3>
+   <p>11/08/1998</p><hr>
+   <h3>Occupation</h3>
+   <p>Student, Forex trader</p><hr>
+   <h3>Home Address</h3>
+   <p>Farm rd2,eliozu,phc,rivers state</p><hr>
+   <h3>Slack Id</h3>
+   <p>iamwilliamsharrison</p>
+    <hr>
+    <h3>Bio</h3>
+    <p> Investor, passion driven, honest and fun to be with</p><hr>
+    <h3>Hobbies</h3>
+    <p>Table tennis,football,music</p><hr>
+    <h3>Interest</h3>
+    <p>Stock market, cryptocurrency, Agriculture</p><hr>
+    <h3>Contact us</h3>
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="">
+            <input name="name" type="text" class="form-control" placeholder="Full Name" required><br>
+            <input name="Email" type="text" class="form-control" placeholder="Email" required><br>
+            <textarea name="message" class="form-control" placeholder="message" rows="4" required></textarea><br>
+            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+
+        </form>
+    </div>
+</div>
+    
+</body>
+</html>
+
+CSS FILE
+body{
+    font-family: sans-serif;
+    color: black;
+    background-color:white;
+}
+.profile-card{
+    width: 700px;
+    margin: auto;
+    background: black ;
+    box-shadow:0 4px 10px 0 rgba(0, 0, 0, 5);
+
+} 
+.image-container{
+    position: relative;
+}
+
+.info{
+    color: black;
+    margin-right: 15px;
+}
+.main-container {
+    padding: 20px;
+    color: white;
+}
+.title{
+    color: white;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 600px;
+    background: darkgray;
+    border: none;
+    outline: none;
+    border-bottom: white;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
